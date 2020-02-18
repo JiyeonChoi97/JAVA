@@ -10,7 +10,7 @@ public class Ex4 {
 
 	public static void main(String[] args) {
 
-		LocalDateTime dt = LocalDateTime.of(2015, 12, 31, 12, 34, 56);
+		LocalDateTime dt = LocalDateTime.of(2015, 12, 31, 12, 34, 55);
 	
 		LocalDate date = dt.toLocalDate();
 		LocalTime time = dt.toLocalTime();
